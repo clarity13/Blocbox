@@ -42,59 +42,6 @@ html, body{
    min-height: 1px;
    margin:0 2% 20px;
  }
-
- /* MEDIA */
- @media (min-width: 300px) {
-   .container {
-     width: 100%;
-   }
-   .header nav ul {
-    display: none;
-   }
- }
- @media (min-width: 768px) {
-   .container {
-     width: 750px;
-   }
-   .one-half {
-     width:46%;
-   }
-   .one-third {
-     width:29.33333%;
-   }
-   .one-fourth {
-     width:21%;
-   }
- }
- @media (min-width: 992px) {
-   .container {
-     width: 970px;
-   }
-   .one-half {
-     width:46%;
-   }
-   .one-third {
-     width:29.33333%;
-   }
-   .one-fourth {
-     width:21%;
-   }
- }
- @media (min-width: 1200px) {
-   .container {
-     width: 1170px;
-   }
-   .one-half {
-     width:46%;
-   }
-   .one-third {
-     width:29.33333%;
-   }
-   .one-fourth {
-     width:21%;
-   }
- }
-
  /* HEADER */
 header {
   color:#FFFFFF;
@@ -163,4 +110,77 @@ header .hero {
    background: #2ECC71;
    border: 2px solid #2ECC71;
    box-shadow: 0px 2px 0px 0px #22894E;
+ }
+
+ /* MEDIA */
+ @media (min-width: 300px) {
+   .container {
+     width: 100%;
+   }
+    header nav ul {
+    display: none;
+   }
+   header .hero h1 {
+     margin: 5px 0 0;
+   }
+ }
+ @media (min-width: 768px) {
+   .container {
+     width: 750px;
+   }
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
+   }
+   header nav ul {
+     display: inline;
+   }
+   header .hero h1 {
+     margin: 95px 0 0;
+   }
+ }
+ @media (min-width: 992px) {
+   .container {
+     width: 970px;
+   }
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
+   }
+   header nav ul {
+     display: inline;
+   }
+   header .hero h1 {
+     margin: 95px 0 0;
+   }
+ }
+ @media (min-width: 1200px) {
+   .container {
+     width: 1170px;
+   }
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
+   }
+   header nav ul {
+     display: inline;
+   }
+   header .hero h1 {
+     margin: 95px 0 0;
+   }
  }
