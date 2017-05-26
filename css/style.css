@@ -122,8 +122,19 @@ header .hero {
     display: none;
    }
    header .hero h1 {
-     font-size: 36px;
+     font-size: 30px;
      margin: 5px 0 0;
+   }
+   header .hero p {
+     font-size: 15px;
+   }
+   header .hero img {
+     width: 100%;
+     margin: auto;
+   }
+   .btn {
+     font-size: 10px;
+     padding: 6px 25px;
    }
  }
  @media screen and (min-width: 768px) {
