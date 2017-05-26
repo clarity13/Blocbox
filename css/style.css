@@ -310,6 +310,10 @@ header .hero {
    }
    header .hero h1 {
      margin: 95px 0 0;
+     font-size: 45px;
+   }
+   header .hero p {
+     font-size: 20px;
    }
    .btn {
      font-size: 15px;
@@ -333,6 +337,10 @@ header .hero {
    }
    header .hero h1 {
      margin: 95px 0 0;
+     font-size: 50px;
+   }
+   header .hero p {
+     font-size: 25px;
    }
    .btn {
      font-size: 15px;
@@ -356,6 +364,10 @@ header .hero {
    }
    header .hero h1 {
      margin: 95px 0 0;
+     font-size: 50px;
+   }
+   header .hero p {
+     font-size: 25px;
    }
    .btn {
      font-size: 15px;
