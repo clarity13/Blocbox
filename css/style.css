@@ -309,22 +309,22 @@ header .hero {
    }
     header nav ul {
     display: none;
-   }
+    }
     header .hero h1 {
      font-size: 30px;
      margin: 5px 0 0;
-   }
+    }
     header .hero p {
      font-size: 15px;
-   }
+    }
     header .hero img {
      width: 100%;
      margin: auto;
-   }
+    }
     .btn {
      font-size: 10px;
      padding: 6px 25px;
-   }
+    }
     .pricing h2 {
       font-size: 25px;
     }
@@ -336,6 +336,22 @@ header .hero {
       width: 60%;
       margin: 0 auto;
     }
+    .testimonials h2 {
+      font-size: 25px;
+    }
+    .testimonials p {
+      font-size: 15px;
+    }
+    .testimonials .one-fourth {
+      width: 60%;
+      margin: 0 auto;
+      padding: 0 0 0 110px;
+    }
+    .testimonials p.name {
+      margin: 0 auto 10px;
+      padding: 35px 0;
+    }
+
 
    footer {
      background-color: #3498DB;
