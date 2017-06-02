@@ -302,7 +302,7 @@ header .hero {
  }
 
  /* MEDIA */
- @media screen and (min-width: 300px) {
+ @media screen and (min-width: 300px) and (max-width: 766px) {
    .container {
      width: 100%;
      padding-left: 0px;
@@ -318,7 +318,7 @@ header .hero {
      font-size: 15px;
     }
     header .hero img {
-     width: 100%;
+     width: 90%;
      margin: auto;
     }
     .btn {
@@ -345,13 +345,12 @@ header .hero {
     .testimonials .one-fourth {
       width: 60%;
       margin: 0 auto;
-      padding: 0 0 0 110px;
+      padding: 0 0 0 75px;
     }
     .testimonials p.name {
       margin: 0 auto 10px;
-      padding: 35px 0;
+      padding: 25px 0;
     }
-
 
    footer {
      background-color: #3498DB;
@@ -362,7 +361,8 @@ header .hero {
    footer p, footer nav ul{
      padding: 1em 0;
      text-align: left;
-     font-size: 10px;
+     font-size: 8px;
+     height: 70px;
    }
    footer .right-footer-block {
      background-color: #3498DB;
@@ -375,7 +375,7 @@ header .hero {
      width: 29.33333%;
    }
  }
- @media screen and (min-width: 768px) {
+ @media screen and (min-width: 768px) and (max-width:991px) {
    .container {
      width: 750px;
    }
@@ -398,18 +398,43 @@ header .hero {
    header .hero p {
      font-size: 20px;
    }
+   header .hero img {
+     width: 90%
+
+   }
    .btn {
-     font-size: 15px;
+     font-size: 12px;
      padding: 10px 30px;
    }
+
+   .pricing h2 {
+     font-size: 30px;
+   }
+   .pricing p {
+     font-size:14px;
+   }
+   .pricing .box {
+     width: 85%;
+     margin: 0 auto;
+   }
+
+   .testimonials .one-fourth {
+     width: 40%;
+     display: inline-block;
+     padding: 0 0 0 30px;
+   }
+   .testimonials #different {
+     margin-top: 0px;
+   }
+
    footer {
      background-color: #3498DB;
      background-image: linear-gradient(to left,
         #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
-     height: 100px;
+     height: 80px;
    }
    footer p, footer nav ul{
-     padding: 3em 0;
+     padding: 2em 0;
      text-align: left;
      font-size: 11px;
    }
@@ -417,11 +442,11 @@ header .hero {
      background-color: #3498DB;
    }
    footer .logo{
-     padding: 1.7em 0 2em 1.5em;
+     padding: 1em 0 2em 1.5em;
      width: 24%;
    }
 }
- @media screen and (min-width: 992px) {
+ @media screen and (min-width: 992px) and (max-width: 1199px){
    .container {
      width: 970px;
    }
@@ -444,18 +469,25 @@ header .hero {
    header .hero p {
      font-size: 25px;
    }
+   header .hero img {
+     width: 85%;
+   }
    .btn {
      font-size: 15px;
      padding: 10px 30px;
+ }
+
+ .testimonials p.name {
+   margin-top: 10px;
  }
    footer {
      background-color: #3498DB;
      background-image: linear-gradient(to left,
         #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
-     height: 100px;
+     height: 90px;
    }
    footer p, footer nav ul{
-     padding: 2em 0;
+     padding: 2.5em 0;
      text-align: left;
      font-size: 12px;
    }
@@ -463,8 +495,8 @@ header .hero {
      background-color: #3498DB;
    }
    footer .logo{
-     padding: 1.5em 0 2em 1.5em;
-     width: 15%;
+     padding: 1.2em 0 2em 1.5em;
+     width: 20%;
    }
  }
  @media screen and (min-width: 1200px) {
