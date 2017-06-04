@@ -315,6 +315,9 @@ header .hero {
    position: fixed;
    display:block;
  }
+ .left-nav a:focus {
+   background-color: #2ECC71;
+ }
  .left-nav .site-logo {
    padding:20px 0;
    background:#34495E;
@@ -456,7 +459,7 @@ header .hero {
  }
 
  /* MEDIA */
- @media screen and (min-width: 300px) and (max-width: 766px) {
+ @media screen and (min-width: 460px) {
    .container {
      width: 100%;
      padding-left: 0px;
@@ -523,10 +526,6 @@ header .hero {
      font-size: .8em;
      text-align: center;
    }
-   footer .logo{
-     /*padding: .8em 2em 2em 1.5em;*/
-    /*width: 25%;*/
-   }
    footer .one-third {
      width: 100%;
    }
@@ -543,7 +542,7 @@ header .hero {
      display:block;
    }
  }
- @media screen and (min-width: 768px) and (max-width:991px) {
+ @media screen and (min-width: 768px){
    .container {
      width: 750px;
    }
@@ -628,7 +627,7 @@ header .hero {
    }
 }
 
- @media screen and (min-width: 992px) and (max-width: 1199px){
+ @media screen and (min-width: 992px) {
    .container {
      width: 970px;
    }
@@ -680,7 +679,7 @@ header .hero {
      padding: 1.2em 0 2em 1.5em;
      width: 20%;
    }
-   content {
+   .content {
      padding:1.5em 1%;
      float:right;
      width:83.33333333%;
@@ -738,5 +737,18 @@ header .hero {
    footer .logo{
      padding: 1.5em 0 2em 1.5em;
      width: 15%;
+   }
+   .content {
+     padding:1.5em 1%;
+     float:right;
+     width:83.33333333%;
+     position: relative;
+   }
+   .content > .container {
+     width:auto;
+   }
+   .content-item {
+     width:23%;
+     margin:0 1% 25px;
    }
  }
