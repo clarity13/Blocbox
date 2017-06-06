@@ -350,8 +350,8 @@ header .hero {
    text-align: center;
    margin-right:8px;
  }
- .left-nav .items ul li a i.active {
-   background-color: red;
+  .active {
+   background-color: #2ECC71;
  }
 
  /* LEFT NAVBAR SETTINGS */
